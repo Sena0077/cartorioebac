@@ -26,6 +26,7 @@ int main()
  	printf("\t1 - registrar nomes\n");// o \t serve também para dar espaço
  	printf("\t2 - consultar nomes\n");// é possível também escrever todo o código numa linha e ir dadndo \n, porém visualmente fica mais bonito dar espaço
  	printf("\t3 - deletar nomes\n\n"); // Final do menu,  preste atençao as vezes o espaço do \n acima ou abaixo faz a diferença
+	printf("\t4 -  sair do sistema\n\n");
 	printf("opcao: ");
  	printf("\t Esse software pertence a marcos sena\n");
  
@@ -49,6 +50,11 @@ int main()
 	case 3:
 	printf("você escolheu deletar nomes!\n");
  	system ("pause");
+ 	break;
+ 	
+ 	case 4:
+ 	printf("obrigado por utilizar o sistema!\n");
+ 	return 0;
  	break;
  	
  	default:
