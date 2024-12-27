@@ -1,2 +1,2 @@
 # cartorioebac
-Prodo curso de TI do zero ao pro
+curso de TI do zero ao pro
